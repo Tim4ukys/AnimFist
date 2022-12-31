@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnimationFist", "AnimationFist.vcxproj", "{BA0C541A-95C3-4368-8C72-A8DBE4CBCFE6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D3C7781-E536-497F-8D4B-19479EDB6234} = {4D3C7781-E536-497F-8D4B-19479EDB6234}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imgui", "imgui\imgui.vcxproj", "{4D3C7781-E536-497F-8D4B-19479EDB6234}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA0C541A-95C3-4368-8C72-A8DBE4CBCFE6}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA0C541A-95C3-4368-8C72-A8DBE4CBCFE6}.Debug|x86.Build.0 = Debug|Win32
+		{BA0C541A-95C3-4368-8C72-A8DBE4CBCFE6}.Release|x86.ActiveCfg = Release|Win32
+		{BA0C541A-95C3-4368-8C72-A8DBE4CBCFE6}.Release|x86.Build.0 = Release|Win32
+		{4D3C7781-E536-497F-8D4B-19479EDB6234}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D3C7781-E536-497F-8D4B-19479EDB6234}.Debug|x86.Build.0 = Debug|Win32
+		{4D3C7781-E536-497F-8D4B-19479EDB6234}.Release|x86.ActiveCfg = Release|Win32
+		{4D3C7781-E536-497F-8D4B-19479EDB6234}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C784717-2D6A-4C7C-BC86-A2B4135BDA03}
+	EndGlobalSection
+EndGlobal
